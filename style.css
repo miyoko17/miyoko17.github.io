@@ -52,7 +52,7 @@ main {
     margin-top: 20px;
 }
 
-.sidebar {{
+.sidebar {
     margin-right: 25px;
     padding: 10px;
 }
@@ -76,7 +76,8 @@ main {
 h2, h3 {
     margin: 0px;
 
-}.content h1 {
+}
+.content h1 {
   color: black;
 }
 
@@ -99,50 +100,30 @@ h2, h3 {
 #portfolio a {
   text-decoration: none;
   color: #454545;
-}(min-width: 120px) and (max-width: 1080px) {
-  main {
-    height: 100ch;
-    zoom: 1.5;
-    display: grid;
-  }
+}
 
-  h1 {
-    font-size: 44px;
-  }
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
 
-  h2 {
-    font-size: 42px;
-  }
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
 
-  h3 {
-    font-size: 36px;
-  }
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
-  #all-contents {
-    height: 100ch;
-    margin: none;
-  }
+#portfolio li:hover {
+  background: #eee;
+}
 
-  a {
-    font-size: 42px;
-  }
- .sidebar {
-    margin-right: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sidebar-img {
-    width: 100%;
-  }
-
-  p,
-  li {
-    font-size: 24px;
-  }
-
-  .content {
-    align-content: center;
-    justify-content: center;
-  }
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
